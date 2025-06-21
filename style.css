@@ -1,0 +1,60 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f4f8;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 700px;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.time-block {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.hour {
+  width: 100px;
+  padding: 10px;
+  text-align: right;
+  background-color: #ddd;
+  border: 1px solid #ccc;
+}
+
+textarea {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  resize: none;
+}
+
+.saveBtn {
+  width: 50px;
+  background-color: #28a745;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.saveBtn:hover {
+  background-color: #218838;
+}
+
+.past {
+  background-color: #d3d3d3;
+}
+
+.present {
+  background-color: #ff6961;
+}
+
+.future {
+  background-color: #77dd77;
+}
